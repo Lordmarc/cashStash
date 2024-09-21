@@ -1,0 +1,7 @@
+{
+  "name": "cash_stash",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
