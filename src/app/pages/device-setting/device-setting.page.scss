@@ -1,0 +1,40 @@
+ion-card{
+    --background: rgb(57, 54, 54);
+    --color: #fff;
+}
+
+ion-card-content{
+    padding: 0;
+    margin: 0;
+    
+}
+ion-item{
+    padding: 0;
+    margin: 0;
+}
+
+ion-button{
+    width: 100%;
+    --background: #fff;
+    --border-style: none;
+    --box-shadow: none;
+    color: #000;
+    
+   
+}
+
+.label-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.label-container .label-name {
+    margin-left: auto; /* Adds space between the labels */
+    color: #888585;
+    flex: 1;
+    text-align: end;
+}
+

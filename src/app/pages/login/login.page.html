@@ -1,0 +1,54 @@
+
+<ion-content [fullscreen]="true" >
+  <div class="container">
+  <div class="img-container">
+    <ion-img src="assets/icon/CashStash_logo.png"/>
+  </div>
+
+
+
+<form class="input-container">
+  <div>
+    <ion-item>
+     
+      <ion-input type="email" name="email" required [(ngModel)]="email"
+          placeholder="email">
+      </ion-input>
+  </ion-item>
+
+    <ion-item>
+      <ion-input [type]="showPassword=== true ? 'text':'password'" required name="password"
+          [(ngModel)]="password" placeholder="Password" labelPlacement="floating"></ion-input>
+      <ion-icon slot="end" [name]="showPassword ? 'eye':'eye-off'"
+          (click)="showPassword = !showPassword"></ion-icon>
+  </ion-item>
+
+    <div class="forgotPassword">
+      <a [routerLink]="['/reset-password']">Forgot Password</a>
+    </div>
+
+    <div class="divider">
+      <p>or login with</p>
+    </div>
+
+    <div class="social-login-buttons">
+      <ion-button>
+        <ion-icon class="fb" name="logo-facebook"></ion-icon>
+      </ion-button>
+
+      <ion-button>
+        <ion-icon class="google" name="logo-google"></ion-icon>
+      </ion-button>
+    </div>
+    
+   
+  
+    <ion-button class="loginBtn" (click)="login()">Login</ion-button>
+
+    <p class="registerText">New Member? <a [routerLink]="['/register']">Signup now</a></p>
+  </div>
+</form>
+
+
+</div>
+</ion-content>

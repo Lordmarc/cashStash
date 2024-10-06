@@ -1,0 +1,25 @@
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+  <ion-card>
+    <ion-card-header>
+        <h2>Settings</h2>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-icon aria-hidden="true" name="person-circle-outline" slot="start"></ion-icon>
+          <ion-button [routerLink]="['/myprofile']">
+            <ion-label>Account Settings</ion-label>
+          </ion-button>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon aria-hidden="true" name="hardware-chip-outline" slot="start"></ion-icon>
+          <ion-button [routerLink]="['/device-setting']">
+            <ion-label>CashStash Device</ion-label>
+          </ion-button>
+        </ion-item>
+    </ion-card-content> 
+  </ion-card>
+  </div>
+</ion-content>

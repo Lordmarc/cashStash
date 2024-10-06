@@ -1,0 +1,46 @@
+
+<ion-content [fullscreen]="true" >
+  <div class="container">
+  <div class="img-container">
+    <ion-img src="assets/icon/CashStash_logo.png"/>
+  </div>
+
+
+
+<form  (ngSubmit)="register()" class="input-container" >
+  <div>
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="Full_name" name="fullname" required placeholder="Full Name"></ion-input>
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="username" name="username" required placeholder="Username"></ion-input>
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="email" [(ngModel)]="email" name="email" required 
+          placeholder="Email">
+      </ion-input>
+      <ion-icon name="mail-outline"></ion-icon>
+  </ion-item>
+
+    <ion-item>
+      <ion-input type="password" [(ngModel)]="password" name="password" placeholder="Password"></ion-input>
+      <ion-icon name="lock-closed-outline"></ion-icon>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" [(ngModel)]="confirmPassword" name="confirmPassword" placeholder="Confirm password"></ion-input>
+    <ion-icon name="lock-closed-outline"></ion-icon>
+</ion-item>
+
+    <ion-button class="signupBtn" type="submit">Sign Up</ion-button>
+
+    <p class="registerText">Already Member? <a [routerLink]="['/login']">Sign In now</a></p>
+  </div>
+</form>
+<img src="" alt="">
+</div>
+</ion-content>

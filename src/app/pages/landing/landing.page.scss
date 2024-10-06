@@ -1,0 +1,36 @@
+.landing-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-tagline-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    flex: 1;
+}
+.img-tagline-container p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+ion-button.btn{
+    --padding-top: 1.3rem;
+    --padding-bottom: 1.3rem;
+    --background: #000;
+    text-transform: none;
+    width: 100%;
+    font-size: 16px;
+}

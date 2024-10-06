@@ -1,0 +1,137 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 54, 54);
+    min-height: 100vh;
+    padding: 1rem;
+
+    gap: 2rem;
+}
+ion-card{ 
+    border-radius: 1rem;
+    width: 100%;
+}
+ion-list{
+    margin-bottom: auto;
+}
+
+ion-card-subtitle{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+.logout-list {
+    margin-top: auto; /* This pushes the logout list to the bottom */
+}
+
+.menu-content ion-button{
+    --background: #fff;
+    --border-style: none;
+    --box-shadow: none;
+    color: #000;
+    height: 100%;
+    width: 100%;
+  
+   
+   
+}
+
+.profile-header{
+    padding: 2rem 0;
+}
+
+.profile-header ion-item{
+    --border-style: none;
+}
+
+.menu-content ion-label{
+    width: 100%;
+    text-align: start;
+}
+
+.amount-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    flex: 1;
+}
+
+
+.amount-container h3{
+    font-size: 4rem;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+}
+
+.row p{
+    display: flex;
+    padding: 0 0 0 20px;
+    flex: 1;
+    font-size: 3rem;
+    
+}
+
+.row span{
+    font-size: 3.5rem;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+.button-container ion-button{
+    width: 100%;
+    
+    --background: #f5f1f1;
+    color: #000;
+    width: 100%;
+}
+
+.menu-toolbar{
+    --background: rgb(57, 54, 54);
+    --color: #fff;
+}
+
+.footer-logout{
+    border-style: none;
+    box-shadow: none;
+}
+
+.logout{
+    --border-style: none;
+}
+
+.logout ion-button{
+    --background: #fff;
+    --border-style: none;
+    --box-shadow: none;
+    color: #000;
+    height: 100%;
+    width: 100%;
+}
+
+.logout ion-label{
+    width: 100%;
+    text-align: start;
+}
+
+ion-card-title{
+    font-size: 2rem;
+}

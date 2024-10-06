@@ -1,0 +1,118 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.input-container{
+    background-color: #383939;
+    border-radius: 60px 60px 10px 10px;
+    padding: 4rem 2rem 2rem 2rem;
+    width: 100%;
+    margin-top: auto;
+    height: 500px;
+    flex: 2;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+   width: 250px;
+   flex: 1;
+}
+ion-img{
+    width: 100%;
+}
+
+.input{
+    font-size: 20px;
+    
+}
+
+ion-input{
+    border: none;
+    text-decoration: none;
+}
+ion-content{
+    --background: #FFF;
+}
+
+ion-item{
+    --background: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    color: #a6a6a6;
+}
+
+.social-login-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.social-login-buttons ion-button{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --border-radius: 20px;
+    --background: #e8ebed;
+   
+}
+.social-login-buttons ion-icon{
+    height: 100%;
+    width: 100%;
+}
+
+.social-login-buttons ion-icon.fb{
+    color: #256af5;
+}
+.social-login-buttons ion-icon.google{
+    color: #f01a36;
+}
+
+.forgotPassword{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forgotPassword a{
+    text-decoration: none;
+    color: #93afe6;
+    
+}
+.registerText{
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+}
+.registerText a{
+    text-decoration: none;
+    color: #93afe6;
+}
+
+.divider{
+    display: flex;
+    justify-content: center;
+    color: #dbd9d9;
+}
+
+
+.loginBtn{
+   --border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    --background:#f1f1f1;
+    color: #000;
+    font-size: 1.3rem;
+    --padding-top: 1.3rem;
+    --padding-bottom: 1.3rem;
+    
+}
+

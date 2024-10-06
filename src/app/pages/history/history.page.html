@@ -1,0 +1,21 @@
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+  <ion-card>
+    <ion-card-header>
+        <h2>History</h2>
+      </ion-card-header>
+
+      <ion-list>
+        <ion-item *ngFor="let item of items; let index">
+          
+          <ion-label>{{ item }}</ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-infinite-scroll>
+        <ion-infinite-scroll-content loadingText="Please wait..." loadingSpinner="bubbles"></ion-infinite-scroll-content>
+      </ion-infinite-scroll>
+   
+  </ion-card>
+  </div>
+</ion-content>
